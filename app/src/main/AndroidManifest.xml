@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Recycle"
+        tools:targetApi="31">
+        <activity
+            android:name=".Jornal"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SaquinhoCha"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PoCafeCoador"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResiduoJardinagem"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResiduoAlimentar"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Louca"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acrilico"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EspelhoAmpolas"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Guardanapo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmbalagemResiduo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PapelHigienico"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProdutosColantes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Vidro"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TuboCaneta"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Embalagem"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Isopor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Plastico"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Aluminio"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClipesGrampos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lata"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Toxico"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Referencias"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Organico"
+            android:exported="false"
+            android:parentActivityName=".TiposLixos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Comum"
+            android:exported="false"
+            android:parentActivityName=".TiposLixos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reciclavel"
+            android:exported="false"
+            android:parentActivityName=".TiposLixos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TiposLixos"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
